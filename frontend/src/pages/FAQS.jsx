@@ -1,7 +1,7 @@
 import React from 'react'
 import FaqSection from '../components/FaqSection'
 
-const FAQS = () => {
+const FAQs = () => {
   return (
     <div className="min-h-screen">
       <FaqSection />
@@ -9,4 +9,4 @@ const FAQS = () => {
   )
 }
 
-export default FAQS
+export default FAQs
