@@ -12,7 +12,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import QuickChat from './pages/QuickChat'
 import LoginForm from './pages/LoginForm'
-import FAQs from './pages/FAQs'
+import FAQs from './pages/FAQS';
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
