@@ -12,13 +12,13 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import QuickChat from './pages/QuickChat'
 import LoginForm from './pages/LoginForm'
-import FAQs from './pages/FAQS';
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Emailverify from './pages/Emailverify'
 import ResetPassword from './pages/ResetPassword'
 import Diss from './pages/Diss'
+// import FAQs from './pages/FAQs'
 
 const App = () => {
   return (
@@ -38,7 +38,7 @@ const App = () => {
       <Route path='/my-appointments' element={<MyAppointments />} />
       <Route path='/appointment/:docId' element={<Appointments />} />
       <Route path='/quick-chats' element={<QuickChat />} />
-      <Route path='/faqs' element={<FAQs />} />
+      {/* <Route path='/faqs' element={<FAQs />} /> */}
       <Route path='/privacy-policy' element={<PrivacyPolicy />} />
       <Route path='/reset-password' element={<ResetPassword />} />
       <Route path='/discussion' element={<Diss />} />
